@@ -9,12 +9,17 @@
 </head>
 
 <body>
-
+    <input type="checkbox" id="alternative">
     <ul>
         <li>
             <input type="checkbox" id="zero">
             <label for="zero">0</label>
             <label for="zero">0</label>
+        </li>
+        <li class="alternative">
+            <input type="checkbox" id="half">
+            <label for="half">&#x00BD;</label>
+            <label for="half">&#x00BD;</label>
         </li>
         <li>
             <input type="checkbox" id="one">
@@ -46,22 +51,37 @@
             <label for="thirteen">13</label>
             <label for="thirteen">13</label>
         </li>
-        <li>
+        <li class="alternative">
+            <input type="checkbox" id="twenty">
+            <label for="twenty">20</label>
+            <label for="twenty">20</label>
+        </li>
+        <li class="alternative">
+            <input type="checkbox" id="fourty">
+            <label for="fourty">40</label>
+            <label for="fourty">40</label>
+        </li>
+        <li class="alternative">
+            <input type="checkbox" id="hundred">
+            <label for="hundred">100</label>
+            <label for="hundred">100</label>
+        </li>
+        <li class="fibonacci">
             <input type="checkbox" id="twenty-one">
             <label for="twenty-one">21</label>
             <label for="twenty-one">21</label>
         </li>
-        <li>
+        <li class="fibonacci">
             <input type="checkbox" id="thirty-four">
             <label for="thirty-four">34</label>
             <label for="thirty-four">34</label>
         </li>
-        <li>
+        <li class="fibonacci">
             <input type="checkbox" id="fifty-five">
             <label for="fifty-five">55</label>
             <label for="fifty-five">55</label>
         </li>
-        <li>
+        <li class="fibonacci">
             <input type="checkbox" id="eighty-nine">
             <label for="eighty-nine">89</label>
             <label for="eighty-nine">89</label>
@@ -73,13 +93,21 @@
         </li>
         <li>
             <input type="checkbox" id="coffee">
-            <label for="coffee"><div class="coffee"></div>&nbsp;</label>
-            <label for="coffee"><div class="coffee"></div>&nbsp;</label>
+            <label for="coffee">
+                <div class="coffee"></div>&nbsp;</label>
+            <label for="coffee">
+                <div class="coffee"></div>&nbsp;</label>
         </li>
         <li>
             <input type="checkbox" id="unknown">
             <label for="unknown">?</label>
             <label for="unknown">?</label>
+        </li>
+        <li class="fibonacci">
+            <label for="alternative">Alt</label>
+        </li>
+        <li class="alternative">
+            <label for="alternative">Fib</label>
         </li>
     </ul>
 </body>

@@ -122,3 +122,16 @@ input:checked + label + label .coffee {
     border-bottom-right-radius: 2em 100%;
     border-bottom-left-radius: 2em 100%;
 }
+
+.alternative {
+    display: none;
+}
+.fibonacci {
+    display: block;
+}
+#alternative:checked + ul > .alternative {
+    display: block;
+}
+#alternative:checked + ul > .fibonacci {
+    display: none;
+}
