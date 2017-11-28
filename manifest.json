@@ -1,0 +1,21 @@
+{
+    "lang": "en",
+    "short_name": "Planning Poker",
+    "name": "Planning Poker",
+    "description": "Planning Poker with fibonacci and alternative sequences",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#fff",
+    "orientation": "portrait",
+    "theme_color": "#fff",
+    "icons": [
+        {
+            "src": "images/planning-poker.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "images/planning-poker.svg"
+        }
+    ]
+}

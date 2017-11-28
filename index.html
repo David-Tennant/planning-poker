@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>Planning Poker</title>
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -110,6 +111,14 @@
             <label for="alternative">Fib</label>
         </li>
     </ul>
+    <script>
+        'use strict';
+        if (navigator.serviceWorker) {
+            navigator.serviceWorker.register('./sw.js', {
+                scope: './'
+            });
+        }
+    </script>
 </body>
 
 </html>
